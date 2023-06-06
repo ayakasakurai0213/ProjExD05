@@ -300,7 +300,7 @@ def title():
     font = pg.font.SysFont("hg正楷書体pro", 50)  # フォント指定
     font2 = pg.font.SysFont("hg正楷書体pro", 150)  # フォント指定
     text_surface = font.render("始める", True, (255,0,0))    # テキストsurface
-    text_surface2 = font2.render("簡易式RPGゲーム", True, (0,0,0))    # テキストsurface
+    text_surface2 = font2.render("RPG of くそげー", True, (0,0,0))    # テキストsurface
     text_rect = text_surface.get_rect(center=rect.center)      # テキストの中心値指定
     while True:
         for event in pg.event.get():
