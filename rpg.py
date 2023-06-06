@@ -96,7 +96,7 @@ class Explosion(pg.sprite.Sprite):
         引数2 life：爆発時間
         """
         super().__init__()
-        img = pg.image.load("ex04/fig/explosion.gif")
+        img = pg.image.load("ex05/fig/explosion.gif")
         img = pg.transform.scale(img, (200, 200))
         self.imgs = [img, pg.transform.flip(img, 1, 1)]
         self.image = self.imgs[0]
